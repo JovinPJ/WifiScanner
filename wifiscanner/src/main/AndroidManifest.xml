@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jo.wifiscanner" >
+    
+    <application android:name=".WifiScannerApplication">
+        <provider
+            android:authorities="com.jo.wifiscanner.WifiScannerProvider"
+            android:name=".WifiScannerProvider"
+            android:exported="false" />
+
+    </application>
+</manifest>
